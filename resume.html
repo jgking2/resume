@@ -1,0 +1,319 @@
+<head>
+  <title>Joseph G. King II</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+<!--   
+<!DOCTYPE html>
+<html lang="en"> -->
+  <head>
+    <meta charset="utf-8">
+    <title>Joseph G. King II</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+  <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+      body {
+        background-color: #999999;
+      }
+      .container-narrow {
+        background-color: #fff;
+        padding: 25px;
+        -moz-box-shadow: 0px 0px 15px #1D1D1D;
+        -webkit-box-shadow: 0px 0px 15px #1D1D1D;
+        box-shadow: 0px 0px 15px #1D1D1D;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+      }
+      #skillbar tbody tr td:last-child {
+        width: 560px;
+      }
+      #skillbar tbody tr td:first-child {
+        width: 120px;
+        text-align: right;
+        padding-right: 10px;
+      }
+      .progress {
+        margin-bottom: 0px !important;
+      }
+      hr {
+        margin: 20px !important;
+      }
+      .exppost {
+        margin-bottom: 20px;
+      }
+      .exppost:last-child {
+        margin-bottom: 0px;
+      }
+      .icon-tag {
+        margin-top: 7px;
+      }
+      .contact-info {
+        margin-top: 10px;
+      }
+      .icon-chevron-right {
+        margin-right:10px;
+      }
+      .subtitle {
+        margin-left: 25px;
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+      .features-box {
+        margin-left: 20px;
+      }
+    </style>
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <div class="pull-right contact-info">
+          <p><a href="mailto:jgkingii@gmail.com"><i class="icon-envelope"></i> jgkingii@gmail.com</a> <strong>|</strong> <i class="icon-user"></i> <a href="tel:5012692932">501.269.2932</a> | 
+            <i style="cursor:pointer;" class="icon-print"></i></p>
+        </div>
+        <h2 class="muted">Joseph G. King II</h2>
+      </div>
+
+      <hr />
+
+      <div>
+        <blockquote>
+          <p>Self motivated, passionate, and hard-working developer looking for challenging position that allows for team contributions and company success, further broadens skillsets, and expands knowledge.</p>
+        </blockquote>
+      </div>
+
+      <hr />
+
+      <div class="row-fluid">
+        <h3><i class="icon-tag"></i> Skill Summary</h3>
+        <table id="skillbar" class="table-condensed">
+          <tbody>
+            <tr>
+              <td>JavaScript</td>
+              <td><div rel="tooltip" class="progress progress-striped">
+                <div id="jscript" class="bar" style="width: 90%;"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td><div rel="tooltip" class="progress progress-striped">
+                <div id="python" class="bar" style="width: 60%;"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>C#</td>
+              <td><div class="progress progress-striped">
+                <div id="csharp" class="bar" style="width: 80%;"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>VB</td>
+              <td><div class="progress progress-striped">
+                <div id="vb" class="bar" style="width: 20%;"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>SQL</td>
+              <td><div class="progress progress-striped">
+                <div id="sql" class="bar" style="width: 50%;"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>MongoDB</td>
+              <td><div class="progress progress-striped">
+                <div id="mongodb" class="bar" style="width: 70%;"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+            <small>* Hover over progress bars for details.</small>
+          </tr>
+   <!--          <tr>
+              <td>Salesforce</td>
+              <td><div id="salesforce" class="progress progress-striped">
+                <div class="bar" style="width: 95%;"></div>
+                </div>
+              </td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <hr />
+
+
+
+      <div class="row-fluid">
+        <h3><i class="icon-tag"></i> Professional History</h3>
+        <div class="exppost well">
+          <div>
+          <div class="pull-right"><span class="label label-success">Jan. 2013 - Present</span></div>
+          <div><strong><i class="icon-chevron-right"></i>.NET Developer</strong></div>
+        </div>
+        <div>
+          <div class="subtitle">Ryder System, Inc. - Medley, FL</div>
+          <div class="features-box">
+            <ul>
+              <li>Developed the Performance Evaluation web application for the enterprise.  Originally a pdf document, used Entity Framework, Web API, and knockout to achieve a much richer user experience.</li>
+              <li>Rewrote an invoicing application to dramatically improve performance and overall
+                user experience.  Original application was outsourced, and written as a web forms application.  The new application is MVC, Web API, and knockout on the front end.</li>
+              <li>Changed the team standards from Web Form applications to Knockout, MVC4, Web API, and Entity Framework.</li>
+              <li>Support and upgrade several other legacy applications.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <div class="exppost well">
+          <div>
+            <div class="pull-right"><span class="label">2011 - 2012</span></div>
+            <div><strong><i class="icon-chevron-right"></i>Salesforce Administrator</strong></div>
+          </div>
+          <div>
+            <div class="subtitle">Ryder, Inc - Medley, FL</div>
+            <div class="features-box">
+              <ul>
+                <li>Certified as a level 1 Salesforce Developer (401 Salesforce exam)</li>
+                <li>Working with SQL database(s) to provide data for consumption by Salesforce.com users</li>
+                <li>Managed the Lotus Notes Connect software implementation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="exppost well">
+          <div>
+            <div class="pull-right"><span class="label">2010 - 2011</span></div>
+            <div><strong><i class="icon-chevron-right"></i>PCI Compliance Specialist</strong></div>
+          </div>
+          <div>
+            <div class="subtitle">Ryder, Inc - Medley, FL</div>
+            <div class="features-box">
+              <ul>
+                <li>Configured, shipped, and managed appointments to install hundreds of network devices that secured the network for credit card transactions.</li>
+                <li>Worked with the broadband team to troubleshoot various network hardware issues</li>
+                <li>Installed the equipment over the phone while documenting changes in order to rollback if necessary</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="exppost well">
+          <div>
+            <div class="pull-right"><span class="label">2009</span></div>
+            <div><strong><i class="icon-chevron-right"></i>Server Team Intern</strong></div>
+          </div>
+          <div>
+            <div class="subtitle">Ryder, Inc - Medley, FL</div>
+            <div class="features-box">
+              <ul>
+                <li>Troubleshoot and maintain existing servers, virtual and physical</li>
+                <li>Installed, configured, and patched new servers</li>
+                <li>Completed tasks and document processes with the Remedy Risk Management system</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <hr />
+
+      <div class="row-fluid">
+        <h3><i class="icon-tag"></i> Personal History</h3>
+
+        <div class="exppost">
+          <div class="well">Currently the sole developer, architect, and designer for a web app to help people obtain health goals.  This process started as a simple web page that processed all data server-side, to a web app driven by ajax calls, to what's now being setup in an awesome new framework, Meteor.js. 
+          </div>
+          <div class="well"> 
+          	Regularly attend .NET Miami meetups, conference, and any other get together that provides an opportunity to refine/expand my knowledge, and network with other developers.  Constantly reading documentation to learn new things, and to learn better ways to do things
+          </div>
+          
+        </div>
+
+
+      <hr />
+
+
+      
+      <div class="row-fluid">
+        <h3><i class="icon-tag"></i> Academic History</h3>
+
+        <div class="exppost well">
+          <div>
+            <div class="pull-right"><span class="label label-success">2007 - 2013</span></div>
+            <div><strong><i class="icon-chevron-right"></i>University of Central Arkansas</strong></div>
+          </div>
+          <div>
+            <div class="subtitle">Bachelor of Math and Sciences: Computer Science</div>
+            <div class="features-box">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+</template>
